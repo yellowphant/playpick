@@ -19,4 +19,35 @@ body { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
     color: #ffffff;
     background-color: #1D5DB2;
     font-size: 14px;
+    border-radius: 0;
+    border: 0px solid transparent;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #092859;
+    font-size: 12px;
+}
+
+.foot-txt {
+    font-size: 12px;
+    color: #999999;
+}
+
+.trans-close {
+    background: url("../images/btn_trans_close.png") no-repeat;
+    border: none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.trans-txt {
+    margin-right: 22px;
+}
+
+.trans-margin {
+    margin-right: 4px;
 }
