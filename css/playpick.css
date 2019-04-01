@@ -38,7 +38,8 @@ body { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .trans-close {
     background: url("../images/btn_trans_close.png") no-repeat;
-    border: none !important;
+    border: none;
+    outline: none;
     width: 16px;
     height: 16px;
     cursor: pointer;
