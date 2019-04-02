@@ -98,11 +98,9 @@ body { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 }
 
 .main-login-magin {
-    margin-top: 20px;
     position: relative;
-    max-width: 1140px;
-    top: 90px;
-    left: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
     z-index: 100;
 }
 
@@ -131,6 +129,7 @@ body { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .main-con {
     position: absolute;
+    width: 100%;
 }
 
 .btn-login {
