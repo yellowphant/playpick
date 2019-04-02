@@ -45,11 +45,12 @@
         </nav>
     </header>
 
+    <main role="main" class="flex-shrink-0">
     <div class="bd-example main-slide-posi">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/daysgone.png" class="d-block w-100" alt="...">
+                <div class="main-slide-img"></div>
                 <div class="carousel-caption d-none d-md-block main-slide">
                   <p class="main-slide-title">Days Gone</p>
                   <p>Genre: Action</p>
@@ -57,7 +58,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/daysgone.png" class="d-block w-100" alt="...">
+                <div class="main-slide-img"></div>
                 <div class="carousel-caption d-none d-md-block main-slide">
                   <p class="main-slide-title">Days Gone2</p>
                   <p>Genre: Action</p>
@@ -65,7 +66,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/daysgone.png" class="d-block w-100" alt="...">
+                <div class="main-slide-img"></div>
                 <div class="carousel-caption d-none d-md-block main-slide">
                   <p class="main-slide-title">Days Gone 3</p>
                   <p>Genre: Action</p>
@@ -89,6 +90,17 @@
           </div>
         </form>
     </div>
+
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-primary">장르명</li>
+      <li class="list-group-item list-group-item-secondary">장르명</li>
+      <li class="list-group-item list-group-item-success">장르명</li>
+      <li class="list-group-item list-group-item-danger">장르명</li>
+      <li class="list-group-item list-group-item-warning">장르명</li>
+      <li class="list-group-item list-group-item-info">장르명</li>
+      <li class="list-group-item list-group-item-light">장르명</li>
+      <li class="list-group-item list-group-item-dark">장르명</li>
+    </ul>
 
 
     <div class="main-icon-box">
@@ -166,8 +178,8 @@
           </div>
         </div>
     </div>
-
-    <footer class="footer mt-auto py-3" id="footer">
+    </main>
+    <footer class="footer mt-auto py-3">
       <div class="container">
         <div class="row">
             <div class="footer-logo">
@@ -181,6 +193,7 @@
         </div>
       </div>
     </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
