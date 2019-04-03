@@ -169,7 +169,7 @@ input::placeholder {
 }
 
 .main-icon-box {
-    padding: 32px 0;
+    margin-top: 32px;
 }
 
 .footer-logo {
@@ -252,6 +252,11 @@ input::placeholder {
 
 .main-genre-list a {
     color: #666666;
+}
+
+.main-genre-list a:hover {
+    color: #1D5EB2;
+    text-decoration: none;
 }
 
 .main-genre-list img {
