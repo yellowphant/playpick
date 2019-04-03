@@ -188,8 +188,7 @@ input::placeholder {
 }
 
 .main-slide-posi {
-    position: static;
-    top: -56px;
+    margin-top: -56px;
 }
 
 .main-slide-img {
