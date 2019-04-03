@@ -223,6 +223,7 @@ input::placeholder {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    list-style: none;
 }
 
 .main-genre-list-item {
