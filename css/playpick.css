@@ -241,13 +241,20 @@ input::placeholder {
 }
 
 .main-genre-list {
+    font-size: 14px;
+    color: #999999;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     list-style: none;
+    text-align: center;
 }
 
-.main-genre-list-item {
-    border: none;
-    margin: 0 20px;
+.main-genre-list a {
+    color: #666666;
+}
+
+.main-genre-list img {
+    display: block;
+    margin-bottom: 8px;
 }
