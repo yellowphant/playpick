@@ -39,11 +39,7 @@ input::placeholder {
 
 .footer {
     font-size: 12px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     background-color: #092859;
-    width: 100%;
 }
 
 .foot-txt {
@@ -263,4 +259,9 @@ input::placeholder {
 .main-genre-list img {
     display: block;
     margin-bottom: 8px;
+}
+
+/* for mobile */
+@media (max-width: 767px) {
+
 }
