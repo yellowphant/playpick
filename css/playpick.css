@@ -170,6 +170,7 @@ input::placeholder {
 
 .main-icon-box {
     margin-top: 32px;
+    max-width: 856px;
 }
 
 .footer-logo {
