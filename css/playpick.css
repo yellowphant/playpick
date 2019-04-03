@@ -247,6 +247,11 @@ input::placeholder {
     text-align: center;
 }
 
+.main-genre-list li {
+    width: 12.5%;
+    box-sizing: border-box;
+}
+
 .main-genre-list a {
     color: #666666;
 }
