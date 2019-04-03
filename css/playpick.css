@@ -188,7 +188,7 @@ input::placeholder {
 }
 
 .main-slide-posi {
-    position: relative;
+    position: static;
     top: -56px;
 }
 
@@ -201,7 +201,12 @@ input::placeholder {
 }
 
 .main-search {
-    position: relative;
-    top: -280px;
+    width: 100%;
+    position: absolute;
+    top: 250px;
     z-index: 100;
+}
+
+.ban-main {
+    position: relative;
 }
