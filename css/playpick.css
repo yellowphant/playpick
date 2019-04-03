@@ -38,8 +38,12 @@ input::placeholder {
 }
 
 .footer {
-    background-color: #092859;
     font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #092859;
+    width: 100%;
 }
 
 .foot-txt {
@@ -76,6 +80,10 @@ input::placeholder {
     font-size: 14px;
     color: #1D5EB2;
     padding: 4px 16px;
+}
+
+.trans-drop-txt {
+    color: #1D5EB2;
 }
 
 .trans-drop {
@@ -152,9 +160,11 @@ input::placeholder {
 }
 
 .footer-logo {
+    width: 100%;
     margin: auto;
     margin-top: 8px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-text {
@@ -180,7 +190,6 @@ input::placeholder {
     background-color: #1D5EB2;
     border-color: #1D5EB2;
 }
-
 
 .mh-480 {
     max-height: 480px !important;
@@ -208,4 +217,15 @@ input::placeholder {
 
 .ban-main {
     position: relative;
+}
+
+.main-genre-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.main-genre-list-item {
+    border: none;
+    margin: 0 20px;
 }
