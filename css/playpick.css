@@ -68,7 +68,7 @@ input::placeholder {
 .trans-txt {
     font-size: 14px;
     color: #ffffff;
-    margin-right: 16px;
+    margin-right: 8px;
 }
 
 .trans-btn {
@@ -152,7 +152,7 @@ input::placeholder {
 .main-login-magin {
     position: relative;
     margin: 0 auto;
-    z-index: 100;
+    z-index: 50;
 }
 
 .main-icon-genre {
@@ -215,7 +215,7 @@ input::placeholder {
 }
 
 .main-slide-posi {
-    margin-top: -56px;
+    margin-top: 0px;
 }
 
 .main-slide-img {
@@ -235,6 +235,8 @@ input::placeholder {
 
 .ban-main {
     position: relative;
+    margin-top: -56px;
+    overflow: hidden;
 }
 
 .main-genre-list {
@@ -250,6 +252,7 @@ input::placeholder {
 .main-genre-list li {
     width: 12.5%;
     box-sizing: border-box;
+    margin-bottom: 24px;
 }
 
 .main-genre-list a {
@@ -264,9 +267,24 @@ input::placeholder {
 .main-genre-list img {
     display: block;
     margin-bottom: 8px;
+    margin: 0 auto 8px;
+}
+
+.main {
+    padding-bottom: 56px;
+}
+
+.trans-txt-sm {
+    font-size: 14px;
+    color: #ffffff !important;
+    margin-right: 8px;
 }
 
 /* for mobile */
 @media (max-width: 767px) {
 
+    .btn-login {background-color: #1D5EB2; border-color: #1D5EB2;}
+    .main-genre-list li {width: 25%;}
+    .main-search-title {font-size: 24px; line-height: 1.3em;}
+    .main-search-input {width: 85%;}
 }
